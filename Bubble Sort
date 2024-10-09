@@ -1,0 +1,15 @@
+Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order. This process is repeated until the list is sorted.
+
+Example of Bubble Sort on the list [5, 3, 8, 1]:
+
+1. Compare 5 and 3: Swap → [3, 5, 8, 1]
+2. Compare 5 and 8: No swap → [3, 5, 8, 1]
+3. Compare 8 and 1: Swap → [3, 5, 1, 8]
+
+Repeat the process:
+1. Compare 3 and 5: No swap → [3, 5, 1, 8]
+2. Compare 5 and 1: Swap → [3, 1, 5, 8]
+
+Repeat again:
+1. Compare 3 and 1: Swap → [1, 3, 5, 8]
+List is sorted.
