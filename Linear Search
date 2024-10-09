@@ -1,0 +1,15 @@
+Linear search checks each element in a list one by one until it finds the target or reaches the end. 
+It's simple but not efficient for large lists. 
+Time complexity: O(n).
+
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i  # Return the index if found
+    return -1  # Return -1 if not found
+
+# Example usage
+arr = [10, 20, 30, 40, 50]
+target = 30
+result = linear_search(arr, target)
+print(result)  # Output: 2 (index of 30 in the array)
